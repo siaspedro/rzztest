@@ -3,7 +3,7 @@
 # Author:Lenovo
 # Time:2018/11/30 16:43
 import MySQLdb
-mdb = MySQLdb.connect("10.0.111.11","root","9o0p(O)P","python",charset='utf8')
+mdb = MySQLdb.connect("***","root","***,"python",charset='utf8')
 cursor = mdb.cursor()
 sql = """INSERT INTO SIASPEDRO(FIRST_NAME,
          LAST_NAME, AGE, SEX, INCOME)
